@@ -1,0 +1,4 @@
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/develop
+  remotes/origin/master

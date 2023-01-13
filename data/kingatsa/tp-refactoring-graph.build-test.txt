@@ -1,0 +1,82 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.acme:tp-refactoring-graph >--------------------
+[INFO] Building tp-refactoring-graph 0.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
+[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/kingatsa/tp-refactoring-graph/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/kingatsa/tp-refactoring-graph/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/kingatsa/tp-refactoring-graph/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/kingatsa/tp-refactoring-graph/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.acme.graph.io.GraphReaderTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in org.acme.graph.io.GraphReaderTest
+[ERROR] testRoute500(org.acme.graph.io.GraphReaderTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.acme.graph.io.GraphReaderTest.testRoute500(GraphReaderTest.java:50)
+
+[INFO] Running org.acme.graph.routing.DijkstraRegressTest
+15:34:32.959 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+15:34:32.984 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+15:34:32.986 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+15:34:32.986 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+15:34:32.986 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+15:34:32.987 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 s - in org.acme.graph.routing.DijkstraRegressTest
+[INFO] Running org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.acme.graph.model.GraphTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   GraphReaderTest.testRoute500:50
+[INFO] 
+[ERROR] Tests run: 10, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.828 s
+[INFO] Finished at: 2023-01-13T15:34:33+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project tp-refactoring-graph: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/formation/workspace_mborne/tp-graph-check-2023/data/kingatsa/tp-refactoring-graph/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

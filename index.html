@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Correction TP-REFACTORING-GRAPH</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <table id="results" class="table table-striped" width="100%"></table>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
+    <script type="text/javascript">
+
+        function loadResults() {
+            $.getJSON('./results.json', function (results) {
+                let dataSet = results.map(function(result){
+                    return [
+                        `<a href="${result.repositoryUrl}" target="_blank">${result.username}</a>`,
+                        `<a target="_blank" href="./data/${result.username}/tp-refactoring-graph.branches.txt">${result.branchName}</a>`,
+                        `<a class="${result.build ? "text-success" : "text-danger"}" target="_blank" href="./data/${result.username}/tp-refactoring-graph.build.txt">${result.build ? "SUCCESS" : "FAILURE"}</a>`,
+                        `<a class="${result.test ? "text-success" : "text-danger"}" target="_blank" href="./data/${result.username}/tp-refactoring-graph.build-test.txt">${result.test ? "SUCCESS" : "FAILURE"}</a>`
+                    ];
+                });
+                $('#results').DataTable({
+                    data: dataSet,
+                    columns: [
+                        { title: "Username" },
+                        { title: "DefaultBranch" },
+                        { title: "Build" },
+                        { title: "Test" }
+                    ],
+                    "paging":   false,
+                    "info":     false
+                });
+            });
+        }
+
+        $(document).ready(loadResults);
+    </script>
+</body>
+
+</html>

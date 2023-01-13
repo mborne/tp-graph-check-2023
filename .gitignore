@@ -1,0 +1,4 @@
+/node_modules/
+/package-lock.json
+# ignore cloned repositories
+/data/*/tp-refactoring-graph

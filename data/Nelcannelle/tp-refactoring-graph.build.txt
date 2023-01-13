@@ -1,0 +1,44 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.acme:tp-pattern-geometry >--------------------
+[INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
+[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ tp-pattern-geometry ---
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tp-pattern-geometry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
+[INFO] Building jar: /home/formation/workspace_mborne/tp-graph-check-2023/data/Nelcannelle/tp-refactoring-graph/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.828 s
+[INFO] Finished at: 2023-01-13T15:34:59+01:00
+[INFO] ------------------------------------------------------------------------

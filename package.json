@@ -1,0 +1,17 @@
+{
+  "name": "tp-graph-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node process-all.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "shelljs": "^0.8.5"
+  }
+}

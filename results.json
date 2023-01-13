@@ -1,0 +1,121 @@
+[
+  {
+    "username": "baptisteRiviere",
+    "repositoryUrl": "https://github.com/baptisteRiviere/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Bmaeve",
+    "repositoryUrl": "https://github.com/Bmaeve/tp-refactoring-graph.git",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Emmaloup13",
+    "repositoryUrl": "https://github.com/Emmaloup13/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "EnzoVenon",
+    "repositoryUrl": "https://github.com/EnzoVenon/tp-refactoring-graph",
+    "branchName": "master",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Erzalt",
+    "repositoryUrl": "https://github.com/Erzalt/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Fernando-IRQ",
+    "repositoryUrl": "https://github.com/Fernando-IRQ/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "GTiazara",
+    "repositoryUrl": "https://github.com/GTiazara/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "hait-oumajoud",
+    "repositoryUrl": "https://gitlab.com/hait-oumajoud/tp-refactoring-graph",
+    "branchName": "master",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "IlonaBaran",
+    "repositoryUrl": "https://github.com/IlonaBaran/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Jackigeo",
+    "repositoryUrl": "https://github.com/Jackigeo/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "jonathanboris",
+    "repositoryUrl": "https://github.com/jonathanboris/tp-refactoring-graph",
+    "branchName": "develop",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "kingatsa",
+    "repositoryUrl": "https://gitlab.com/kingatsa/tp-refactoring-graph",
+    "branchName": "develop",
+    "build": true,
+    "test": false
+  },
+  {
+    "username": "LinaSaba",
+    "repositoryUrl": "https://github.com/LinaSaba/tp-refactoring-graph",
+    "branchName": "develop",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Nelcannelle",
+    "repositoryUrl": "https://gitlab.com/Nelcannelle/design_patterns",
+    "branchName": "master",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "OmranEdoo",
+    "repositoryUrl": "https://github.com/OmranEdoo/tp-refactoring-graph",
+    "branchName": "develop",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "Sam-design99",
+    "repositoryUrl": "https://github.com/Sam-design99/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  },
+  {
+    "username": "VenziaTurmoil",
+    "repositoryUrl": "https://github.com/VenziaTurmoil/tp-refactoring-graph",
+    "branchName": "initial",
+    "build": true,
+    "test": true
+  }
+]

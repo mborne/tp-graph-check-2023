@@ -1,0 +1,49 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.acme:tp-refactoring-graph >--------------------
+[INFO] Building tp-refactoring-graph 0.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/hait-oumajoud/tp-refactoring-graph/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/hait-oumajoud/tp-refactoring-graph/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/hait-oumajoud/tp-refactoring-graph/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ tp-refactoring-graph ---
+[INFO] Building jar: /home/formation/workspace_mborne/tp-graph-check-2023/data/hait-oumajoud/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.2:repackage (repackage) @ tp-refactoring-graph ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.120 s
+[INFO] Finished at: 2023-01-13T15:32:56+01:00
+[INFO] ------------------------------------------------------------------------
