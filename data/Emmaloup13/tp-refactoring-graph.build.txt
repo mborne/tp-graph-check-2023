@@ -10,6 +10,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
+[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/Emmaloup13/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
 [INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/Emmaloup13/tp-refactoring-graph/target/jacoco.exec
@@ -44,6 +45,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.041 s
-[INFO] Finished at: 2023-01-13T15:30:56+01:00
+[INFO] Total time:  2.817 s
+[INFO] Finished at: 2023-01-13T17:45:15+01:00
 [INFO] ------------------------------------------------------------------------

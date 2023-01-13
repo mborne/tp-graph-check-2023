@@ -10,6 +10,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
+[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/baptisteRiviere/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
 [INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/baptisteRiviere/tp-refactoring-graph/target/jacoco.exec
@@ -22,7 +23,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/baptisteRiviere/tp-refactoring-graph/target/classes
+[INFO] Compiling 14 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/baptisteRiviere/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -44,6 +45,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.650 s
-[INFO] Finished at: 2023-01-13T15:30:12+01:00
+[INFO] Total time:  2.532 s
+[INFO] Finished at: 2023-01-13T17:44:40+01:00
 [INFO] ------------------------------------------------------------------------

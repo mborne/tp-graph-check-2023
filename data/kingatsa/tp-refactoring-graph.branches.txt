@@ -1,4 +1,5 @@
 * develop
+  remotes/origin/EX-08
   remotes/origin/HEAD -> origin/develop
   remotes/origin/develop
   remotes/origin/initial

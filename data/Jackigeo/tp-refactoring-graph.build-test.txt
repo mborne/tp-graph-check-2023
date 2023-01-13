@@ -23,52 +23,25 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/classes
-[INFO] 
-[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Using 'UTF-8' encoding to copy filtered properties files.
-[INFO] Copying 5 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/test-classes
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
-[INFO] 
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.948 s - in org.acme.graph.io.GraphReaderTest
-[INFO] Running org.acme.graph.routing.DijkstraRegressTest
-15:33:56.558 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-15:33:56.563 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-15:33:56.564 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-15:33:56.565 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-15:33:56.565 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-15:33:56.565 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in org.acme.graph.routing.DijkstraRegressTest
-[INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.acme.graph.model.GraphTest
-[INFO] 
-[INFO] Results:
-[INFO] 
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
-[INFO] 
-[INFO] 
-[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ tp-refactoring-graph ---
-[INFO] Building jar: /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
-[INFO] 
-[INFO] --- spring-boot-maven-plugin:2.6.2:repackage (repackage) @ tp-refactoring-graph ---
-[INFO] Replacing main artifact with repackaged archive
-[INFO] 
-[INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ tp-refactoring-graph ---
-[INFO] Loading execution data file /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/jacoco.exec
-[INFO] Analyzed bundle 'tp-refactoring-graph' with 11 classes
+[INFO] Compiling 13 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
+[INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  17.505 s
-[INFO] Finished at: 2023-01-13T15:33:57+01:00
+[INFO] Total time:  2.017 s
+[INFO] Finished at: 2023-01-13T17:46:39+01:00
 [INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project tp-refactoring-graph: Compilation failure
+[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

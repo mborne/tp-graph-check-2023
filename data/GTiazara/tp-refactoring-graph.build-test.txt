@@ -40,17 +40,17 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.795 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.214 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-15:32:48.290 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-15:32:48.294 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-15:32:48.295 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-15:32:48.296 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-15:32:48.296 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-15:32:48.296 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.acme.graph.routing.DijkstraRegressTest
+17:46:18.331 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+17:46:18.337 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+17:46:18.339 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+17:46:18.339 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+17:46:18.340 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+17:46:18.340 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.acme.graph.model.GraphTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -69,6 +69,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15.281 s
-[INFO] Finished at: 2023-01-13T15:32:49+01:00
+[INFO] Total time:  14.221 s
+[INFO] Finished at: 2023-01-13T17:46:19+01:00
 [INFO] ------------------------------------------------------------------------

@@ -23,7 +23,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Sam-design99/tp-refactoring-graph/target/classes
+[INFO] Compiling 12 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Sam-design99/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -40,17 +40,17 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.508 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.658 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-15:35:43.216 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-15:35:43.220 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-15:35:43.221 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-15:35:43.221 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-15:35:43.221 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-15:35:43.221 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.acme.graph.routing.DijkstraRegressTest
+17:47:54.957 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+17:47:54.961 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+17:47:54.963 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+17:47:54.963 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+17:47:54.963 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+17:47:54.964 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.acme.graph.model.GraphTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -65,10 +65,10 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ tp-refactoring-graph ---
 [INFO] Loading execution data file /home/formation/workspace_mborne/tp-graph-check-2023/data/Sam-design99/tp-refactoring-graph/target/jacoco.exec
-[INFO] Analyzed bundle 'tp-refactoring-graph' with 11 classes
+[INFO] Analyzed bundle 'tp-refactoring-graph' with 12 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.543 s
-[INFO] Finished at: 2023-01-13T15:35:44+01:00
+[INFO] Total time:  13.733 s
+[INFO] Finished at: 2023-01-13T17:47:55+01:00
 [INFO] ------------------------------------------------------------------------

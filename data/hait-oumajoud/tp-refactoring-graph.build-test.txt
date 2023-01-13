@@ -40,15 +40,15 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.551 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.667 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-15:33:07.079 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-15:33:07.084 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-15:33:07.085 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-15:33:07.085 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-15:33:07.086 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-15:33:07.086 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.acme.graph.routing.DijkstraRegressTest
+17:46:32.003 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+17:46:32.007 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+17:46:32.008 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+17:46:32.008 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+17:46:32.008 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+17:46:32.009 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] Running org.acme.graph.model.GraphTest
 [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.acme.graph.model.GraphTest
 [INFO] 
@@ -69,6 +69,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.119 s
-[INFO] Finished at: 2023-01-13T15:33:08+01:00
+[INFO] Total time:  8.503 s
+[INFO] Finished at: 2023-01-13T17:46:33+01:00
 [INFO] ------------------------------------------------------------------------

@@ -57,10 +57,10 @@ for (const [username, repositoryUrl] of Object.entries(repositories)) {
     }
 
     /*
-     * result.test : on lance la construction
+     * result.test : on lance les tests
      */
     {
-        let commandMvn = `mvn -B clean package jacoco:report > ${repositoryDir}.build-test.txt 2>&1`;
+        let commandMvn = `timeout 30s mvn -B clean package jacoco:report > ${repositoryDir}.build-test.txt 2>&1`;
         result.test = shell.exec(commandMvn).code === 0;
         console.log('TEST : ' + (result.test ? 'SUCCESS' : 'FAILURE'));
     }

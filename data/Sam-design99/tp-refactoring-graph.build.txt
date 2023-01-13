@@ -22,7 +22,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Sam-design99/tp-refactoring-graph/target/classes
+[INFO] Compiling 12 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Sam-design99/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -44,6 +44,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.047 s
-[INFO] Finished at: 2023-01-13T15:35:30+01:00
+[INFO] Total time:  2.617 s
+[INFO] Finished at: 2023-01-13T17:47:41+01:00
 [INFO] ------------------------------------------------------------------------
