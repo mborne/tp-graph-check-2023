@@ -10,10 +10,9 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -23,7 +22,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/classes
+[INFO] Compiling 14 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -32,19 +31,19 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 4 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ tp-refactoring-graph ---
-[INFO] Building jar: /home/formation/workspace_mborne/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /home/mickael/workspace_formation/tp-graph-check-2023/data/EnzoVenon/tp-refactoring-graph/target/tp-refactoring-graph-0.1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- spring-boot-maven-plugin:2.6.2:repackage (repackage) @ tp-refactoring-graph ---
 [INFO] Replacing main artifact with repackaged archive
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.607 s
-[INFO] Finished at: 2023-01-13T17:45:32+01:00
+[INFO] Total time:  3.846 s
+[INFO] Finished at: 2023-01-15T22:57:48+01:00
 [INFO] ------------------------------------------------------------------------

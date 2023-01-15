@@ -16,7 +16,7 @@
   {
     "username": "Emmaloup13",
     "repositoryUrl": "https://github.com/Emmaloup13/tp-refactoring-graph",
-    "branchName": "initial",
+    "branchName": "develop",
     "build": true,
     "test": true
   },
@@ -44,7 +44,7 @@
   {
     "username": "hait-oumajoud",
     "repositoryUrl": "https://gitlab.com/hait-oumajoud/tp-refactoring-graph",
-    "branchName": "master",
+    "branchName": "develop",
     "build": true,
     "test": true
   },
@@ -67,7 +67,7 @@
     "repositoryUrl": "https://gitlab.com/kingatsa/tp-refactoring-graph",
     "branchName": "develop",
     "build": true,
-    "test": false
+    "test": true
   },
   {
     "username": "Nelcannelle",

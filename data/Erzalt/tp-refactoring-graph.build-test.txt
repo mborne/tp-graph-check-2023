@@ -10,10 +10,10 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target
+[INFO] Deleting /home/mickael/workspace_formation/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -23,7 +23,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 14 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/classes
+[INFO] Compiling 14 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -32,14 +32,16 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/test-classes
+[INFO] Compiling 4 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/Erzalt/tp-refactoring-graph/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tp-refactoring-graph ---
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
+[INFO] Running org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in org.acme.graph.model.GraphTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.965 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.796 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-17:49:15.942 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+23:01:39.776 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...

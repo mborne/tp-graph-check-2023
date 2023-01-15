@@ -10,10 +10,10 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target
+[INFO] Deleting /home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -23,11 +23,11 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 13 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target/classes
+[INFO] Compiling 13 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/src/main/java/org/acme/graph/routing/DijkstraPathFinder.java:[18,17] cannot find symbol
+[ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/src/main/java/org/acme/graph/routing/DijkstraPathFinder.java:[18,17] cannot find symbol
   symbol:   class PathTree
   location: class org.acme.graph.routing.DijkstraPathFinder
 [INFO] 1 error
@@ -35,11 +35,11 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.739 s
-[INFO] Finished at: 2023-01-13T17:48:23+01:00
+[INFO] Total time:  1.853 s
+[INFO] Finished at: 2023-01-15T23:00:51+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project tp-refactoring-graph: Compilation failure
-[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/src/main/java/org/acme/graph/routing/DijkstraPathFinder.java:[18,17] cannot find symbol
+[ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/src/main/java/org/acme/graph/routing/DijkstraPathFinder.java:[18,17] cannot find symbol
 [ERROR]   symbol:   class PathTree
 [ERROR]   location: class org.acme.graph.routing.DijkstraPathFinder
 [ERROR] -> [Help 1]

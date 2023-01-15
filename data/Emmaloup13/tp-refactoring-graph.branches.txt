@@ -1,4 +1,4 @@
-* initial
-  remotes/origin/HEAD -> origin/initial
+* develop
+  remotes/origin/HEAD -> origin/develop
   remotes/origin/develop
   remotes/origin/initial

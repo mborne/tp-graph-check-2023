@@ -10,10 +10,10 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
-[INFO] Deleting /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target
+[INFO] Deleting /home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default-prepare-agent) @ tp-refactoring-graph ---
-[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ tp-refactoring-graph ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -23,21 +23,21 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tp-refactoring-graph ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 13 source files to /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/classes
+[INFO] Compiling 13 source files to /home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
+[ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
 [INFO] 1 error
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.017 s
-[INFO] Finished at: 2023-01-13T17:46:39+01:00
+[INFO] Total time:  1.935 s
+[INFO] Finished at: 2023-01-15T22:59:05+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project tp-refactoring-graph: Compilation failure
-[ERROR] /home/formation/workspace_mborne/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
+[ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
