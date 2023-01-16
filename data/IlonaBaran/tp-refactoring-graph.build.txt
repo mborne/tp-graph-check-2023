@@ -34,8 +34,8 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.495 s
-[INFO] Finished at: 2023-01-15T23:00:48+01:00
+[INFO] Total time:  1.466 s
+[INFO] Finished at: 2023-01-16T07:34:31+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project tp-refactoring-graph: Compilation failure
 [ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/IlonaBaran/tp-refactoring-graph/src/main/java/org/acme/graph/routing/DijkstraPathFinder.java:[18,17] cannot find symbol

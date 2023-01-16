@@ -32,8 +32,8 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.197 s
-[INFO] Finished at: 2023-01-15T22:59:02+01:00
+[INFO] Total time:  2.843 s
+[INFO] Finished at: 2023-01-16T07:33:01+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project tp-refactoring-graph: Compilation failure
 [ERROR] /home/mickael/workspace_formation/tp-graph-check-2023/data/Jackigeo/tp-refactoring-graph/src/main/java/org/acme/graph/controllers/FindPathController.java:[30,43] incompatible types: org.acme.graph.model.Path cannot be converted to java.util.List<org.acme.graph.model.Edge>

@@ -2,3 +2,4 @@
   remotes/origin/HEAD -> origin/develop
   remotes/origin/develop
   remotes/origin/initial
+  remotes/origin/working-branch

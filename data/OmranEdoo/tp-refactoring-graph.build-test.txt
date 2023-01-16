@@ -40,15 +40,15 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.acme.graph.model.GraphTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.acme.graph.model.GraphTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.809 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.866 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-23:00:07.164 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-23:00:07.167 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-23:00:07.169 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-23:00:07.169 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.acme.graph.routing.DijkstraRegressTest
+07:33:57.242 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+07:33:57.245 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+07:33:57.246 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+07:33:57.246 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -67,6 +67,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.315 s
-[INFO] Finished at: 2023-01-15T23:00:08+01:00
+[INFO] Total time:  10.684 s
+[INFO] Finished at: 2023-01-16T07:33:58+01:00
 [INFO] ------------------------------------------------------------------------

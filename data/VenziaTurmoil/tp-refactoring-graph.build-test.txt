@@ -40,17 +40,17 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.acme.graph.model.GraphTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.acme.graph.model.GraphTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in org.acme.graph.model.GraphTest
 [INFO] Running org.acme.graph.io.GraphReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.761 s - in org.acme.graph.io.GraphReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.731 s - in org.acme.graph.io.GraphReaderTest
 [INFO] Running org.acme.graph.routing.DijkstraRegressTest
-23:00:42.491 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
-23:00:42.496 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
-23:00:42.497 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
-23:00:42.498 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
-23:00:42.499 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
-23:00:42.499 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in org.acme.graph.routing.DijkstraRegressTest
+07:34:27.362 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c)...
+07:34:27.366 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,c) : path found
+07:34:27.367 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a)...
+07:34:27.367 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(b,a) : path not found
+07:34:27.368 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b)...
+07:34:27.368 [main] INFO org.acme.graph.routing.DijkstraPathFinder - findPath(a,b) : path found
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.acme.graph.routing.DijkstraRegressTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -69,6 +69,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.971 s
-[INFO] Finished at: 2023-01-15T23:00:43+01:00
+[INFO] Total time:  10.553 s
+[INFO] Finished at: 2023-01-16T07:34:28+01:00
 [INFO] ------------------------------------------------------------------------
