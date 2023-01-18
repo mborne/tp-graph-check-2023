@@ -10,16 +10,16 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
-[INFO] Downloading from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
 [INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
-[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.3 kB at 3.4 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.3 kB at 3.4 kB/s)
+[INFO] Downloading from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.3 kB at 2.3 kB/s)
+[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml (1.3 kB at 2.3 kB/s)
 [INFO] Downloading from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
 [INFO] Downloading from osgeo-snapshot: https://repo.osgeo.org/repository/snapshot/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
 [INFO] Downloading from osgeo: https://repo.osgeo.org/repository/release/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
-[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.3 kB at 34 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.3 kB at 49 kB/s)
+[INFO] Downloaded from maven: https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.3 kB at 55 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml (1.3 kB at 35 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tp-refactoring-graph ---
 [INFO] 
@@ -56,6 +56,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.605 s
-[INFO] Finished at: 2023-01-16T07:30:35+01:00
+[INFO] Total time:  8.384 s
+[INFO] Finished at: 2023-01-18T06:09:17+01:00
 [INFO] ------------------------------------------------------------------------
